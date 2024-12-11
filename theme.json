@@ -1,0 +1,39 @@
+{
+    "launch": {
+    
+
+        "configurations": [],
+        "compounds": []
+    },
+    
+    "editor.fontFamily": "Cascadia Code",
+    "editor.fontSize": 12,
+    "editor.fontWeight": "400",
+    "editor.letterSpacing": 0,
+    "editor.lineHeight": 1.8,
+    "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss19', 'ss20'",
+    "editor.tabSize": 2,
+
+    "workbench.colorTheme": "Dark Pink",
+    "[typescript]": {
+        "editor.defaultFormatter": "denoland.vscode-deno"
+    },
+
+    "go.toolsManagement.autoUpdate": true,
+    "workbench.editorAssociations": {
+        "{git,gitlens}:/**/*.{md,csv,svg}": "default"
+    },
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "workbench.iconTheme": "city-lights-icons-vsc-light",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "files.autoSave": "afterDelay"
+}
